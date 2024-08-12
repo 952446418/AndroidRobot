@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/abrowseflower"
+    android:orientation="vertical"
+    tools:context=".PersonActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="请您填写个人信息"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        />
+
+
+    <!--单选框-->
+    <RadioGroup
+        android:id="@+id/rg_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="性        别："
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp" />
+        <RadioButton
+            android:id="@+id/rb_sex1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <!--            android:checked="true"-->
+        <RadioButton
+            android:id="@+id/rb_sex2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="女"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+    </RadioGroup>
+
+
+    <!--单选框-->
+    <RadioGroup
+        android:id="@+id/rg_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="年        龄："
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp" />
+            <RadioButton
+                android:id="@+id/rb_age1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25岁以下"
+                android:textColor="@color/black"
+                android:layout_marginLeft="120dp"
+                android:textSize="20sp" />
+            <RadioButton
+                android:id="@+id/rb_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="26-35岁"
+                android:textColor="@color/black"
+                android:layout_marginLeft="120dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/rb_age3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="36-50岁"
+                android:textColor="@color/black"
+                android:layout_marginLeft="120dp"
+                android:textSize="20sp" />
+            <RadioButton
+                android:id="@+id/rb_age4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50岁以上"
+                android:textColor="@color/black"
+                android:layout_marginLeft="120dp"
+                android:textSize="20sp"/>
+    </RadioGroup>
+
+
+
+    <!--单选框-->
+    <RadioGroup
+        android:id="@+id/rg_occupation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="职        业："
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp" />
+            <RadioButton
+                android:id="@+id/rb_occupation1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="销售"
+                android:textColor="@color/black"
+                android:layout_marginLeft="120dp"
+                android:textSize="20sp" />
+            <RadioButton
+                android:id="@+id/rb_occupation2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="程序员"
+                android:textColor="@color/black"
+                android:layout_marginLeft="120dp"
+                android:textSize="20sp" />
+            <RadioButton
+                android:id="@+id/rb_occupation3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="教师"
+                android:textColor="@color/black"
+                android:layout_marginLeft="120dp"
+                android:textSize="20sp" />
+            <RadioButton
+                android:id="@+id/rb_occupation4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="其他"
+                android:textColor="@color/black"
+                android:layout_marginLeft="120dp"
+                android:textSize="20sp" />
+    </RadioGroup>
+
+
+
+
+
+    <!--    &lt;!&ndash;复选框&ndash;&gt;-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="过敏体质："-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginStart="20dp" />-->
+<!--        <CheckBox-->
+<!--            android:id="@+id/cb_sensitive1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="药物过敏"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="20sp"/>-->
+<!--        <CheckBox-->
+<!--            android:id="@+id/cb_sensitive2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="食物过敏"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_marginStart="30dp" />-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="121dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginStart="121dp">-->
+<!--        <CheckBox-->
+<!--            android:id="@+id/cb_sensitive3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="花粉过敏"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="20sp" />-->
+<!--    </LinearLayout>-->
+
+
+    <Button
+            android:id="@+id/btn_commit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="提交"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_username"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

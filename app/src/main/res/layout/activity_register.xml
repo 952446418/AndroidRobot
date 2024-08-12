@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/abrowseflower"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="注    册"
+        android:textColor="#DD1B1B"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/et_user"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:hint="用户名"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="5sp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/bg_username"
+        />
+
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="密    码"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="5sp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/bg_username"
+        />
+
+    <EditText
+        android:id="@+id/et_repass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="确认密码"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="5sp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/bg_username"
+        />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="150dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/bg_username"
+        />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="注册成功则继续填写个人信息"
+        android:layout_marginTop="5dp"
+        android:textSize="10sp" />
+
+</LinearLayout>
+
+
+
+<!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+<!--    -->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+<!--        <TextView-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:gravity="center"-->
+<!--            android:text="欢迎进入注册界面!"-->
+<!--            android:textSize="30dp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TableLayout-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:stretchColumns="1" >-->
+
+<!--            <TableRow >-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="用户名：" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/usernameRegister"-->
+<!--                    android:layout_width="fill_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:hint="请输入用户名！！！" />-->
+<!--            </TableRow>-->
+
+<!--            <TableRow >-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="密码：" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/passwordRegister"-->
+<!--                    android:layout_width="fill_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:hint="请输入密码！！！" />-->
+<!--            </TableRow>-->
+
+<!--            <TableRow >-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="年龄：" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/ageRegister"-->
+<!--                    android:layout_width="fill_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:hint="请输入年龄！！！" />-->
+<!--            </TableRow>-->
+
+<!--            <TableRow >-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:text="性别："-->
+<!--                    android:textSize="20dp" />-->
+
+<!--                <RadioGroup-->
+<!--                    android:id="@+id/sexRegister"-->
+<!--                    android:layout_width="fill_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:checkedButton="@+id/woman"-->
+<!--                    android:orientation="horizontal" >-->
+
+<!--                    <RadioButton-->
+<!--                        android:id="@+id/nan"-->
+<!--                        android:text="男"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_width="wrap_content" />-->
+
+<!--                    <RadioButton-->
+<!--                        android:id="@id/woman"-->
+<!--                        android:text="女"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_width="wrap_content"/>-->
+<!--                </RadioGroup>-->
+<!--            </TableRow>-->
+
+<!--            <TableRow >-->
+
+<!--                <TextView />-->
+
+<!--                <LinearLayout >-->
+<!--                    <Button-->
+<!--                        android:id="@+id/Register"-->
+<!--                        android:layout_width="150dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="注册" />-->
+<!--                </LinearLayout>-->
+<!--            </TableRow>-->
+<!--        </TableLayout>-->
+
+<!--    </LinearLayout>-->
+

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abrowseflower"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".LoginActivity1">
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:text="WJT"
+        android:textColor="#DD1B1B"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="用户名"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="5sp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/bg_username"
+        />
+
+    <EditText
+        android:id="@+id/et_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:hint="密    码"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="5sp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/bg_username"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="登      录"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_username"
+            />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/bg_username"
+            android:layout_marginStart="2dp" />
+
+        <Button
+            android:id="@+id/btn_repass"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="重置密码"
+            android:layout_marginLeft="2dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/bg_low"
+            android:layout_marginStart="2dp" />
+
+    </LinearLayout>
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_query"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Query data"-->
+<!--        android:layout_marginLeft="2dp"-->
+<!--        android:background="@drawable/bg_username"-->
+<!--        />-->
+
+</LinearLayout>

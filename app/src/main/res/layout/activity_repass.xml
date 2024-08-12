@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/abrowseflower"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RepassActivity">
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:hint="用户名"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="5sp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/bg_username"
+        />
+
+    <EditText
+        android:id="@+id/et_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="新密码"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="5sp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/bg_username"
+        />
+
+    <EditText
+        android:id="@+id/et_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="确认新密码"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="5sp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/bg_username"
+        />
+
+    <Button
+        android:id="@+id/btnrepass"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="重置密码"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_username"
+        />
+
+</LinearLayout>

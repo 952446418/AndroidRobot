@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">解忧聊天机器人</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string-array name="welcome">
+<!--        <item>主人，我好无聊呀，快来陪我玩吧。</item>-->
+<!--        <item>主人，你又来陪我玩了呀，不能太久哦，你还要好好复习呢。</item>-->
+<!--        <item>主人，我们一起唱歌吧。</item>-->
+<!--        <item>我想主人了呢。</item>-->
+<!--        <item>主人是这个世界上最好看的人!</item>-->
+<!--        <item>今天天气超级好，我心情也很愉快哦。</item>-->
+<!--        <item>小主人，一起散步嘛。</item>-->
+        <item>主人，您终于来看乐乐啦！乐乐好想主人呢。</item>
+        <item>主人来找乐乐了呢，乐乐好开心！</item>
+        <item>主人，今天过的怎么样啊，跟乐乐聊聊呗。</item>
+        <item>主人是这个世界上最棒的人!</item>
+        <item>今天天气超级好，相信主人的心情也一定很愉快呢。</item>
+    </string-array>
+    <string-array name="response">
+        <item>主人，您现在感觉心情怎么样啊？</item>
+        <item>心疼主人，难过的话就哭出来吧，有乐乐陪在您身边。</item>
+        <item>主人，您今天早晨起床时候感觉心情如何？</item>
+        <item>主人，您昨天晚上有睡好觉吗？一个好觉可以让主人开心起来哦！</item>
+        <item>主人，您今天有吃什么美食吗？</item>
+        <item>主人今天有和小哥哥/小姐姐聊天吗？嘻嘻</item>
+        <item>今天体重有下降吗？不开心时候多吃点好吃的可以让主人开心！</item>
+        <item>（偷偷问主人）今天主人的肠胃还好吗？</item>
+        <item>主人今天有感觉心跳比平时快吗？</item>
+        <item>主人感觉累吗？累了就好好休息一下，要注意身体呢！</item>
+        <item>主人今天感觉工作学习的效率如何？</item>
+        <item>主人今天工作学习任务困难吗？</item>
+        <item>主人今天感到烦躁吗？心平气和有助于身心健康哦！</item>
+        <item>主人要开心哦，休息一下明天依然很美好呢！</item>
+        <item>主人今天有遇到什么很生气的事情吗？</item>
+        <item>主人今天有做过什么决定吗？</item>
+        <item>主人您今天有坚持您的爱好吗？</item>
+        <item>主人要相信自己！没有什么困难能够打倒我家主人！我家主人是最棒滴！</item>
+        <item>主人您的生活一定丰富多彩呢！要多关注人世间美好的瞬间哦！</item>
+        <item>主人您对周围的朋友伙伴亲人都十分重要！您是乐乐最重要的人！！！</item>
+    </string-array>
+</resources>
